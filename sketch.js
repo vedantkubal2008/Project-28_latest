@@ -23,7 +23,7 @@ function setup() {
   tree = new Tree(1050,583);
 
 	ground = new Ground(width/2,600,1350,20)
-	stone = new Stone(140,430,10);
+	stone = new Stone(140,430,15);
 	mango1 = new Mango(1100,100,30);
 	mango2 = new Mango(1000,130,30);
 	mango3 = new Mango(1190,140,30);
