@@ -9,7 +9,7 @@ var boyimg
 
 function preload()
 {
-	boyimg= loadImage("plucking_mangoes/boy.png");
+	boyimg= loadImage("Plucking_mangoes/boy.png");
 }
 
 function setup() {
