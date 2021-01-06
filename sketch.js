@@ -23,15 +23,16 @@ function setup() {
   tree = new Tree(1050,583);
 
 	ground = new Ground(width/2,600,1350,20)
-	stone = new Stone(140,430,30);
+	stone = new Stone(140,430,10);
 	mango1 = new Mango(1100,100,30);
 	mango2 = new Mango(1000,130,30);
-	mango3 = new Mango(1150,140,30);
-	mango4 = new Mango(1075,70,30);
+	mango3 = new Mango(1190,140,30);
+	mango4 = new Mango(1055,70,30);
 	mango5 = new Mango(1250,230,30);
-	mango6 = new Mango(1040,200,30);
+	mango6 = new Mango(950,210,30);
 	mango7 = new Mango(1050,160,30);
 	mango8 = new Mango(1150,200,30);
+        mango9 = new Mango(1005,260,30);
 	constrain = new constraint(stone.body,{x:140,y:410})
     
 
@@ -55,6 +56,7 @@ function draw() {
   mango6.display();
   mango7.display();
   mango8.display();
+  mango9.display();
   stone.display();
   constrain.display();
 
