@@ -32,7 +32,7 @@ function setup() {
 	mango6 = new Mango(950,210,30);
 	mango7 = new Mango(1050,160,30);
 	mango8 = new Mango(1150,200,30);
-        mango9 = new Mango(1005,260,30);
+    
 	constrain = new constraint(stone.body,{x:140,y:410})
     
 
@@ -56,7 +56,7 @@ function draw() {
   mango6.display();
   mango7.display();
   mango8.display();
-  mango9.display();
+
   stone.display();
   constrain.display();
 
